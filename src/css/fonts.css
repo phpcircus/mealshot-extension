@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'sigmar_oneregular';
+    src: url('../fonts/sigmarone-regular-webfont.woff2') format('woff2'),
+         url('../fonts/sigmarone-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
