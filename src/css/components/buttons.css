@@ -27,8 +27,8 @@
 }
 
 .btn-text {
-    @apply px-6 py-3 text-gray-800 text-sm font-bold whitespace-no-wrap;
-    &:hover, &:focus { @apply text-gray-600 underline }
+    @apply px-6 py-3 text-gray-900 text-sm font-bold whitespace-no-wrap;
+    &:hover, &:focus { @apply text-gray-200 underline }
 }
 
 /* General button style */
@@ -38,11 +38,11 @@
     color: inherit;
     background: none;
     cursor: pointer;
-    padding-top: 18px;
+    padding-top: 10px;
     padding-bottom: 18px;
-    padding-left: 64px;
+    padding-left: 36px;
     display: flex;
-    margin-top: 30px;
+    margin-top: 18px;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 700;

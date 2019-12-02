@@ -6,7 +6,7 @@
 .form-input,
 .form-textarea,
 .form-select {
-  @apply .p-2 .leading-normal .block .w-full .border .text-gray-900 .bg-white .font-sans .rounded .text-left .appearance-none .relative;
+  @apply .p-2 .leading-normal .block .w-full .border .text-gray-900 .text-sm .bg-white .font-sans .rounded .text-left .appearance-none .relative;
 
   &:focus,
   &.focus {
@@ -15,7 +15,7 @@
   }
 
   &::placeholder {
-    @apply .text-gray-600 .opacity-75;
+    @apply .text-gray-600 .opacity-75 .text-sm;
   }
 }
 

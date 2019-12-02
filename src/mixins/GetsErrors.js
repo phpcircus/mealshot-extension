@@ -8,9 +8,15 @@ export default {
     },
     methods: {
         getErrors (errors, field) {
-
             // if the errors contain the expected errors, we get those
             // errors & assign to a variable for further processing
+            if ('default' === this.errorBag) {
+                if (has(errors, field)) {
+                    return get(errors, field);
+                }
+                return;
+            }
+
             if (has(errors, this.errorBag)) {
                 let errorBag = get(errors, this.errorBag);
 
